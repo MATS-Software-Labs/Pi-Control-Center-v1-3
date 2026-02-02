@@ -1,20 +1,19 @@
-🚀 Pi-Control-Center v1.1 | MATS-Software-Labs
-Zentralisierte Management-Suite zur High-End-Optimierung von ARM-basierten Systemen, speziell entwickelt für den Raspberry Pi 5. Dieses Interface bietet volle Kontrolle über Systemressourcen, Netzwerksicherheit und Kernel-Parameter.
+Zentralisierte Management-Schnittstelle zur High-End-Optimierung von ARM-basierten Systemen (Raspberry Pi 5) und zur Sicherung der Netzwerk-Integrität. Dieses Interface bietet die totale Kontrolle über Systemressourcen, Hardware-Tuning und Sicherheits-Parameter.
 
-🛠️ Kern-Features
-System-Monitoring: Echtzeit-Daten zu Taktfrequenz, Auslastung und Thermik.
+🚀 Neue Features in v1.3 (The Matrix & God-Mode Update)
+Kernel-Tuning (God-Mode): Implementierung von Performance-Governoren zur Maximierung der Rechenleistung.
 
-Kernel-Tuning: Implementierung von Performance-Governoren zur Maximierung der Rechenleistung.
+Netzwerk-Integrität: Erweiterte Buffer-Konfigurationen (2.5M Units) zur Eliminierung von Latenzen und Optimierung des Datendurchsatzes.
 
-Netzwerk-Integrität: KI-gestützte DNS-Filterung und Eliminierung von Telemetrie-Datenströmen.
+KI-gestützte DNS-Firewall: Automatisierte Filterung und Eliminierung von Telemetrie-Datenströmen in Echtzeit.
 
-Internet-Wachhund: Automatisierte Reconnect-Zyklen via reconnect.sh bei Verbindungsinstabilität.
+Echtzeit-Monitoring: Integrierte Schnittstelle zur Überwachung von Taktfrequenz, CPU-Last und Thermik (v1.3 Matrix-UI).
 
-God-Mode (Option 6): Voller Root-Zugriff auf alle System-Substrukturen.
+Admin-Prank-Modul: Integriertes Security-Response-System für unbefugte Zugriffsversuche (Option 7 -> 3) 🖕.
 
-📥 Installation & Start
+🛠 Installation & Start
 Um das Interface im MATS-Software-Labs-Standard zu starten, führe folgende Befehle aus:
 
 Bash
-chmod +x menu.sh reconnect.sh
+bash chmod +x menu.sh reconnect.sh
 ./menu.sh
